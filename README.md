@@ -1,5 +1,5 @@
 # Documents_Classification
-Java application made to classify articles based on their content with usage of KNN-Algorithm & N-gram as text comparison method & Chebyshev,Manhattan,Euclides metrics.<br> 
+Java application written in order to classify articles based on their content with usage of KNN-Algorithm & N-gram as text comparison method & Chebyshev,Manhattan,Euclides metrics.<br> 
 
 Graphical user interface has been created using Java-FX toolkit(version 17.0.2)<br> 
 
