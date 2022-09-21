@@ -6,3 +6,5 @@ Graphical user interface has been created using Java-FX toolkit(version 17.0.2)<
 UML diagram of application logic layer(Model):<br> 
 ![UML](https://github.com/madrian98/Documents_Classification/blob/main/Documents%20classification/uml/LogicUML.png)
 
+*** Application made for a school project. Worked locally, then uploaded to GitHub. This is why there are only 4 commits. ***
+
