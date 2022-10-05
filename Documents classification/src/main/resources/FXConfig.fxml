@@ -53,7 +53,7 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                     <children>
-                        <TextField fx:id="trainSetSize" text="50" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="trainSetSize" maxWidth="-Infinity" prefHeight="25.0" prefWidth="50.0" text="50" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets left="10.0" right="10.0" />
                             </GridPane.margin>
@@ -63,7 +63,7 @@
                                 <Insets left="10.0" />
                             </GridPane.margin>
                         </Text>
-                        <TextField fx:id="KValue" text="12" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="KValue" maxWidth="-Infinity" prefHeight="25.0" prefWidth="50.0" text="12" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets left="10.0" right="10.0" />
                             </GridPane.margin>
@@ -175,62 +175,62 @@
                                 <Insets left="20.0" />
                             </GridPane.margin>
                         </Text>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sentences amount in article:" GridPane.rowIndex="1" GridPane.valignment="TOP" />
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Numbers amount in article:" GridPane.rowIndex="2" GridPane.valignment="TOP" />
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Words amount with letter count lower than 4 :" GridPane.rowIndex="3" GridPane.valignment="TOP" />
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Words amount with letter count in between(4,10): " GridPane.rowIndex="4" GridPane.valignment="TOP" />
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Words amount with letter count higher than 10 :" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sentences in article:" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Numbers in article:" GridPane.rowIndex="2" GridPane.valignment="TOP" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Short words :" GridPane.rowIndex="3" GridPane.valignment="TOP" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Normal words: " GridPane.rowIndex="4" GridPane.valignment="TOP" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Long words:" GridPane.rowIndex="5" GridPane.valignment="TOP" />
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Article size:" GridPane.rowIndex="6" GridPane.valignment="TOP" />
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Most common currency:" GridPane.rowIndex="7" GridPane.valignment="TOP" />
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Most common date format:" GridPane.rowIndex="8" GridPane.valignment="TOP" />
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Most common unit of length:" GridPane.rowIndex="9" GridPane.valignment="TOP" />
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Most common unit of temperature:" GridPane.rowIndex="10" GridPane.valignment="TOP" />
-                        <TextField fx:id="sentencesAmountWeight" text="1" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Currency:" GridPane.rowIndex="7" GridPane.valignment="TOP" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Date format:" GridPane.rowIndex="8" GridPane.valignment="TOP" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Length unit:" GridPane.rowIndex="9" GridPane.valignment="TOP" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature unit:" GridPane.rowIndex="10" GridPane.valignment="TOP" />
+                        <TextField fx:id="sentencesAmountWeight" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="190.0" text="1" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="digitsAmountWeight" text="1" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="digitsAmountWeight" maxWidth="-Infinity" prefHeight="25.0" prefWidth="190.0" text="1" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="shortWordsAmountWeight" text="1" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="shortWordsAmountWeight" maxWidth="-Infinity" prefHeight="25.0" prefWidth="190.0" text="1" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="longWordsAmountWeight" text="1" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="longWordsAmountWeight" maxWidth="-Infinity" prefWidth="190.0" text="1" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="normalWordsAmountWeight" text="1" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="normalWordsAmountWeight" maxWidth="-Infinity" prefWidth="190.0" text="1" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="textLengthWeight" text="1" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="textLengthWeight" maxWidth="-Infinity" prefWidth="190.0" text="1" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="currencyWeight" text="1" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="currencyWeight" maxWidth="-Infinity" prefWidth="190.0" text="1" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="dateFormatWeight" text="1" GridPane.rowIndex="8" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="dateFormatWeight" maxWidth="-Infinity" prefWidth="190.0" text="1" GridPane.rowIndex="8" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="lengthUnitWeight" text="1" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="lengthUnitWeight" maxHeight="-Infinity" maxWidth="-Infinity" prefWidth="190.0" text="1" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="temperatureUnitWeight" text="1" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                        <TextField fx:id="temperatureUnitWeight" maxWidth="-Infinity" prefWidth="190.0" text="1" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                             <GridPane.margin>
                                 <Insets bottom="5.0" />
                             </GridPane.margin>

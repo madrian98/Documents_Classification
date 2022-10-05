@@ -55,12 +55,6 @@ public class FxController implements Initializable {
     public RadioButton UKBtn;
     public RadioButton CanadaBtn;
     public RadioButton JapanBtn;
-    public Text WestGermanyCountDisplay;
-    public Text USACountDisplay;
-    public Text FranceCountDisplay;
-    public Text UKCountDisplay;
-    public Text CanadaCountDisplay;
-    public Text JapanCountDisplay;
     public RadioButton nGramBtn;
     List<ArticleConnector> articleConnectors;
     public static final ExecutorService es = Executors.newFixedThreadPool(1);
